@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+main {}
+
+.wrapperModal {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.modal {
+    background-color: white;
+    width: 80%;
+    margin: 250px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.headerModal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.headerModal button {
+    color: rgba(0, 0, 0, 0.8);
+    width: 25px;
+    border: transparent;
+    border-radius: 50%;
+}
+
+.modal input {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 9px;
+}
+
+.submit {
+    width: 100%;
+    padding: 9px;
+    border: transparent;
+    background-color: #15214e;
+    color: white;
+    font-weight: bold;
+}
+
+.submit:hover {
+    filter: brightness(120%);
+}
+
+figure {
+    width: 100vw;
+    height: 40vh;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.loginBox {
+    padding: 20px;
+}
+
+.loginBox h2 {
+    margin: 20px 0;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    height: 60px;
+    padding: 9px;
+    background-color: #e4e4e4;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+span {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.forgetPassword {
+    display: flex;
+    justify-content: end;
+    border: transparent;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.forgetPassword:hover {
+    color: rgba(11, 11, 146, 0.8);
+    cursor: pointer;
+}
+
+.enter {
+    color: #15214e;
+    background-color: white;
+    border: 2px solid #15214e;
+    width: 100%;
+    height: 60px;
+    padding: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enter:hover {
+    color: white;
+    background-color: #15214e;
+
+}
+
+.register {
+    margin-top: 10px;
+}
+
+strong {
+    cursor: pointer;
+}
+
+.wrapperModal2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.cadastrese {
+    width: 100%;
+    padding: 9px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #15214e;
+    border: 1px solid #15214e;
+    border-radius: 5px;
+}
+
+.cadastrese:hover {
+    color: white;
+    background-color: #15214e;
+}
+
+@media (min-width: 1024px) {
+
+    main {
+        display: flex;
+    }
+
+    figure {
+        width: 70vw;
+        height: 100vh;
+    }
+
+    .loginBox {
+        padding: 100px;
+    }
+
+    .loginBox h2 {
+        margin-bottom: 80px;
+    }
+
+    .modal {
+        width: 40%;
+    }
+}
